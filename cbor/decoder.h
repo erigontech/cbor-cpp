@@ -18,8 +18,8 @@
 #ifndef __CborDecoder_H_
 #define __CborDecoder_H_
 
-#include "listener.h"
-#include "input.h"
+#include <cbor/listener.h>
+#include <cbor/input.h>
 
 namespace cbor {
     typedef enum {

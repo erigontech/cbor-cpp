@@ -18,7 +18,7 @@
 #define __CborDynamicOutput_H_
 
 
-#include "output.h"
+#include <cbor/output.h>
 
 namespace cbor {
     class output_dynamic : public output {

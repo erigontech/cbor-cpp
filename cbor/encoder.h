@@ -18,7 +18,7 @@
 #ifndef __CborEncoder_H_
 #define __CborEncoder_H_
 
-#include "output.h"
+#include <cbor/output.h>
 #include <string>
 
 namespace cbor {

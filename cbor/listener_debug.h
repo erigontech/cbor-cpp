@@ -19,7 +19,7 @@
 
 #include <string>
 
-#include "listener.h"
+#include <cbor/listener.h>
 
 namespace cbor {
     class listener_debug : public listener {

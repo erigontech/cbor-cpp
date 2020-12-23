@@ -17,7 +17,7 @@
 #ifndef __CborStaticOutput_H_
 #define __CborStaticOutput_H_
 
-#include "output.h"
+#include <cbor/output.h>
 
 namespace cbor {
     class output_static : public output {

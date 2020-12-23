@@ -17,12 +17,12 @@
 #ifndef CBOR_CPP_CBOR_H
 #define CBOR_CPP_CBOR_H
 
-#include "input.h"
-#include "encoder.h"
-#include "decoder.h"
-#include "listener.h"
-#include "output_static.h"
-#include "output_dynamic.h"
-#include "listener_debug.h"
+#include <cbor/input.h>
+#include <cbor/encoder.h>
+#include <cbor/decoder.h>
+#include <cbor/listener.h>
+#include <cbor/output_static.h>
+#include <cbor/output_dynamic.h>
+#include <cbor/listener_debug.h>
 
 #endif //CBOR_CPP_CBOR_H
