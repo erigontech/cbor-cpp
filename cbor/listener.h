@@ -44,14 +44,10 @@ namespace cbor {
 
         virtual void on_error(const char *error) = 0;
 
-        virtual void on_extra_integer(unsigned long long value, int sign) {
-        }
+        virtual void on_extra_integer(unsigned long long value, int sign) = 0;
 
-        virtual void on_extra_tag(unsigned long long tag) {
-        }
-
-        virtual void on_extra_special(unsigned long long tag) {
-        }
+        virtual void on_extra_tag(unsigned long long tag) = 0;
+        virtual void on_extra_special(unsigned long long tag) = 0;
     };
 }
 
