@@ -48,12 +48,19 @@ namespace cbor {
         virtual void on_error(const char *error) = 0;
 
         virtual void on_extra_integer(unsigned long long value, int sign) {
+            // silence unused parameter warning
+            (void)value;
+            (void)sign;
         }
 
         virtual void on_extra_tag(unsigned long long tag) {
+            // silence unused parameter warning
+            (void)tag;
         }
 
         virtual void on_extra_special(unsigned long long tag) {
+            // silence unused parameter warning
+            (void)tag;
         }
     };
 }
