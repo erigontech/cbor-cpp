@@ -33,13 +33,13 @@ namespace cbor {
 
         ~output_dynamic() override;
 
-        virtual unsigned char *data();
+        unsigned char *data() override;
 
-        virtual unsigned int size();
+        unsigned int size() override;
 
-        virtual void put_byte(unsigned char value);
+        void put_byte(unsigned char value) override;
 
-        virtual void put_bytes(const unsigned char *data, int size);
+        void put_bytes(const unsigned char *data, int size) override;
 
     private:
         void init(unsigned int initalCapacity);

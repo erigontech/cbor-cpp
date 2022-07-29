@@ -48,10 +48,10 @@ void output_static::put_bytes(const unsigned char *data, int size) {
     }
 }
 
-unsigned char *output_static::getData() {
+unsigned char *output_static::data() {
     return _buffer;
 }
 
-unsigned int output_static::getSize() {
+unsigned int output_static::size() {
     return _offset;
 }

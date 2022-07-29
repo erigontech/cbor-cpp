@@ -30,13 +30,13 @@ namespace cbor {
 
         ~output_static() override;
 
-        virtual unsigned char *getData();
+        unsigned char *data() override;
 
-        virtual unsigned int getSize();
+        unsigned int size() override;
 
-        virtual void put_byte(unsigned char value);
+        void put_byte(unsigned char value) override;
 
-        virtual void put_bytes(const unsigned char *data, int size);
+        void put_bytes(const unsigned char *data, int size) override;
     };
 }
 
