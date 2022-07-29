@@ -22,6 +22,8 @@
 namespace cbor {
     class listener {
     public:
+        virtual ~listener() = default;
+
         virtual void on_integer(int value) = 0;
 
         virtual void on_float32(float value) = 0;

@@ -21,6 +21,8 @@
 namespace cbor {
     class output {
     public:
+        virtual ~output() = default;
+
         virtual unsigned char *data() = 0;
 
         virtual unsigned int size() = 0;

@@ -31,7 +31,7 @@ namespace cbor {
 
         output_dynamic(unsigned int inital_capacity);
 
-        ~output_dynamic();
+        ~output_dynamic() override;
 
         virtual unsigned char *data();
 

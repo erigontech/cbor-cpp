@@ -28,7 +28,7 @@ namespace cbor {
     public:
         output_static(unsigned int capacity);
 
-        ~output_static();
+        ~output_static() override;
 
         virtual unsigned char *getData();
 
