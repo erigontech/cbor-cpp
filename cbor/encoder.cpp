@@ -16,6 +16,8 @@
 
 #include "encoder.h"
 
+#include <cstdint>
+
 using namespace cbor;
 
 
