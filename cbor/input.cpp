@@ -22,8 +22,8 @@
 
 using namespace cbor;
 
-input::input(void *data, int size) {
-    _data = (unsigned char *)data;
+input::input(const unsigned char *data, int size) {
+    _data = data;
     _size = size;
     _offset = 0;
 }
