@@ -20,11 +20,11 @@
 namespace cbor {
     class input {
     private:
-        unsigned char *_data;
+        const unsigned char *_data;
         int _size;
         int _offset;
     public:
-        input(void *data, int size);
+        input(const unsigned char *data, int size);
 
         ~input();
 
